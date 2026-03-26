@@ -1,6 +1,10 @@
 import axios from 'axios';
 
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000/api';
+const API_URL =
+    import.meta.env.VITE_API_URL ||
+    (import.meta.env.PROD
+        ? 'https://recipe-generator-x3lm.onrender.com/api'
+        : 'http://localhost:8000/api');
 
 // Create axios instance
 const api = axios.create({
