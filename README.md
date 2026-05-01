@@ -91,7 +91,7 @@ Start Frontend
 cd client
 npm run dev
 ```
-###5. Open in Browser
+### 5. Open in Browser
 
 ---
 
