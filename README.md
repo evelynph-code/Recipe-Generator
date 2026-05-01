@@ -85,10 +85,10 @@ VITE_API_BASE_URL=http://localhost:8000/api
 ### 4. Run the App
 ```bash
 Start Backend
-cd server
+cd backend
 npm run dev
 Start Frontend
-cd client
+cd frontend
 npm run dev
 ```
 ### 5. Open in Browser
